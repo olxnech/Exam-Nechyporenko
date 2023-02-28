@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+:root {
+    --white:  #FFFFFF;
+    --gold: #C89F2D;
+    --gold2: #CC9900;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-image: url(images/Header.jfif);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+    width: auto;
+    min-height: 750px;
+    color: var(--white);
+    text-align: center;
+}
+
+h1{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 103.95px;
+    margin-top: 212px;    
+    max-width: 1069px;
+    margin: 0 auto;
+    padding-top: 212px;
+}
+
+.vector{
+    padding-top: 58.65px;
+}
+
+.top{
+    width: 218px;
+    height: 80px;
+    border: 0;
+    margin: 0 17px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.top:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 64.19px;
+}
+
+.about{
+    background-image: url(images/pattern.png), linear-gradient(270deg, #F4F2F2 18.35%, var(--white) 84.09%);
+    background-blend-mode: overlay;
+    box-shadow: inset 0px 4px 40px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+    width: auto;
+    min-height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content{
+    width: 720px;    
+    margin-top: 103px;
+    color: var(--gold2);
+}
+
+h2{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.decoration{
+    padding-top: 24.2px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+}
+
+.text{
+    max-width: 471px;
+    margin: auto;
+    margin-top: 16.07px;
+    color: black;
+}
+
+.cook{
+    margin-top: 16px;
+    margin-left: 265px;
+}
+
+.dish{
+    max-width: 720px;
+    margin-top: 99px;
+    margin-left: 2.1%;
+}
+
+.ingredients{
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+    width: auto;
+    height: 750px;
+    color: var(--white);
+    text-align: center;
+    position: relative;
+}
+
+.rectangle{
+    position: absolute;
+    color: var(--white);
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 629px;
+    height: 550px;
+    top: 100px;
+    right: 6.3%;
+    padding-top: 49px;    
+}
+
+.decoration2{
+    padding-top: 24.2px;
+}
+
+.text2{
+    max-width: 460px;
+    margin: auto;
+    padding-top: 26.07px;
+}
+
+.ellipse img{
+    padding: 50px 14.05px;
+}
+
+.menu{
+    background-image: url(images/pattern2.png), linear-gradient(270deg, #FFFFFF 18.35%, #F3F1F1 84.09%);
+    background-blend-mode:overlay;
+    box-shadow: inset 0px 4px 40px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+    width: auto;
+    min-height: 1174px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    max-width: 502px;
+    margin: 38px 78.5px 0 78.5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+span{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: var(--gold);
+}
+
+hr{
+    height: 1px;    
+    background-color: var(--gold);
+    border: none;
+}
+
+.item h2{
+    margin-top: 55px;
+    color: var(--gold);
+}
+
+li{
+    margin-top: 8px;
+}
+
+.starters{
+    display: none;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    height: 30.94px;
+}
+
+.name_price{
+    border: 1px solid rgba(200, 159, 45, 0);
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 17px;
+    padding-top: 9px;
+}
+
+.special{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.41px;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(200, 159, 45, 0);
+    width: 85.45px;
+    height: 22px;
+    text-align: center;
+    margin-left: calc(502px - 85.45px + 1px);
+}
+
+li:hover > .name_price{
+    border: 1px solid rgba(200, 159, 45, 1);
+}
+
+li:hover > .special{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(200, 159, 45, 1);
+}
+
+.reviews{
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+    width: auto;
+    height: 750px;
+    display: flex;
+}
+
+.decoration3{
+    display: none;
+}
+
+.rectangle2{
+    color: var(--white);
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 850px;
+    min-height: 550px;
+    margin: auto;
+    padding: 68px 80px;
+}
+
+.text3 p{
+    max-width: 690px;
+    margin: auto;
+    margin-top: 68px;
+    font-family: 'Gentium Book Basic', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41.66px;
+}
+
+.food{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--white);
+}
+
+.reservation{
+    background-image: url(images/pattern.png), linear-gradient(270deg, #FFFFFF 18.35%, #F4F2F2 84.09%);
+    background-blend-mode: overlay;
+    box-shadow: inset 0px 4px 40px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+    width: auto;
+    min-height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.picture{
+    display: flex;
+    max-width: 720px;
+    margin: auto;
+}
+
+.picture2{
+    padding: 1%;
+}
+
+.appetisers{
+    width: 700px;
+    margin-top: 103px;
+    margin: auto;
+}
+
+.appetisers h2{
+    color:var(--gold2);
+}
+
+.text4{
+    max-width: 460px;
+    margin: auto;
+    margin-top: 16.07px;
+}
+
+.form{
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 410px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+input{
+    width: 190px;
+    height: 36px;
+    padding-left: 8px;
+    border: 1px solid #9b9b9b;
+    outline:none;    
+}
+
+.input{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--gold);
+}
+
+input:focus{
+    border-color: var(--gold2);
+}
+
+input:hover{
+    border-color: var(--gold2);
+}
+
+::placeholder{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9B9B9B;
+}
+
+.form2{
+    max-width: 410px;
+    padding-left: 26.8%;
+    padding-top: 40px;
+}
+
+.book{
+    background-color: var(--gold);
+    width: 190px;
+    height: 36px;
+    border: none;
+    color: var(--white);
+}
+
+.book:hover {
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #000000;
+    opacity: 0.75;
+    background-size: cover;
+    width: auto;
+    min-height: 375px;
+    padding-bottom: 50px;
+}
+
+.properties{
+    max-width: 1440px;
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.block1{
+    width: 400px;
+    text-align: center;
+    margin-left: 5.2%;
+}
+
+.block2{
+    width: 253.21px;
+    text-align: center;
+    margin-left: 7.8%;
+}
+
+.block3{
+    width: 253.21px;
+    text-align: center;
+    margin-left: 13.4%;
+}
+
+h3{
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.26px;
+    margin-top: 50px;
+}
+
+.text5{
+    margin-top: 58.27px;
+}
+
+.text6{
+    margin-top: 37.27px;
+}
+
+.text6 span{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.group{
+    margin-top: 37.27px;
+}
+
+.text7 p{
+    margin-top: 30.27px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        min-height: 1024px;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    .top{
+        width: 334px;
+        margin: 18.5px 34px;
+    }
+
+    .about{
+        height: 864px;
+    }
+
+    .text{
+        max-width: 399px;
+        margin: auto;
+        margin-top: 74.07px;
+        color: black;
+    }
+
+    .cook{
+        margin-top: 74px;
+        margin-left: 25%;
+    }
+
+    .dish{
+        display: none;
+    }
+
+    .rectangle{
+        position: inherit;
+        width: 92.2%;
+        right: auto;
+        margin: auto;
+    }
+
+    .text2{
+        max-width: 529px;
+        margin: auto;
+        padding-top: 73px;
+    }
+    
+    .ellipse img{
+        padding: auto 4%;
+        width: 25%;
+    }
+
+    .menu{
+        min-height: 2175px;
+        display: block;
+        padding: 55px 0 100px;
+    }
+
+    .item{
+        max-width: 580px;
+        margin: auto;
+    }
+
+    .special{
+        width: 28%;
+        margin-left: 72%;
+    }
+
+    .rectangle2{
+        max-width: 708px;
+        min-height: 550px;
+        padding: 75px 9px;
+    }
+
+    .decoration3{
+        display: block;
+        text-align: center;
+        padding-top: 24.2px;
+    }
+
+    .text3 p{
+        margin-top: 30px;
+    }
+
+    .reservation{
+        min-height: 1373px;
+        display: block;
+        padding-top: 80px;
+    }
+    
+    .picture{
+        max-width: 768px;
+        margin: 0 auto 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .picture2 img{
+        width: 339px;
+        height: 550px;
+    }
+
+    .appetisers{
+        width: auto;
+        margin-top: 0;
+    }
+    
+    form{
+        max-width: 768px;
+        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+
+    input{
+        width: 100%;
+        height: 36px;
+        padding-left: 15px;
+        border: 1px solid #9b9b9b;
+        outline:none;    
+    }
+
+    .form2{
+        display: flex;
+        max-width: 768px;
+        justify-content: center;
+        grid-column: 1 / 3;
+        padding-top: 40px;
+        padding-left: 0;
+    }
+
+    .book{
+        width: 338px;
+    }
+
+    .footer{
+        padding-bottom: 100px;
+    }
+
+    .properties{
+        max-width: 500px;
+    }
+
+    .block1, .block2, .block3{
+        margin-left: 0;
+    }
+
+    h3{
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .header{
+        min-height: 926px;
+    }
+
+    h1{
+        font-size: 48px;
+        line-height: 55.44px;
+        max-width: 350px;
+        padding-top: 289px;
+    }
+
+    .vector{
+        padding-top: 39px;
+    }
+
+    .top{
+        width: 368px;
+        margin: 18.5px 20px;
+    }
+    
+    .button{
+        padding-top: 89.08px;
+    }
+
+    .about{
+        padding-top: 31px;
+        height: 950px;
+    }
+
+    .text{
+        max-width: 329px;
+        margin-top: 50px;
+    }
+
+    .cook{
+        margin-top: 50.07px;
+    }
+
+    .ingredients{
+        height: 926px;
+    }
+
+    .rectangle{
+        width: 368px;
+        height: 726px;
+    }
+
+    .text2{
+        max-width: 303px;
+    }
+
+    .ellipse img{
+        padding: 0;
+        margin: 73px 5px 107.12px 5px;
+        width: 95px;
+    }
+
+    .menu{
+        min-height: 1850px;
+        padding: 10px;
+    }
+
+    .main{
+        display: none;
+    }
+
+    .starters{
+        display: block;
+    }
+
+    .reviews{
+        height: 926px;
+    }
+
+    .rectangle2{
+        max-width: 368px;
+        min-height: 726px;
+        padding: 67px 25px;
+    }
+
+    .text3 p{
+    }
+
+    .reservation{
+        padding-top: 100px;
+        min-height: 900px;
+    }
+
+    .picture{
+        display: none;
+    }
+
+    .text4{
+        max-width: 367px;
+    }
+
+    .text4 p{
+        margin-top: -20px;
+    }
+
+    form{
+        max-width: 365px;
+        display: block;
+    }
+
+    .book{
+        width: 365px;
+    }
+
+    .footer{
+        padding-bottom: 200px;
+    }
+
+    .block1{
+        display: none;
+    }
+
+    .group img{
+        width: 53px;
+    }
+
+    h3{
+        margin-top: 100px;
+    }
+
+    .block3{
+        margin-top: 100px;
+        width: 400px;
+    }
+}
